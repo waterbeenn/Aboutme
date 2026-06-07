@@ -56,7 +56,7 @@ export const portfolioData = {
       id: 2,
       title: "포트폴리오 웹사이트",
       description: "프로젝트 및 이력 사항 관리를 위한 웹페이지입니다.",
-      tags: ["React", "API Integration", "Responsive Design"],
+      tags: ["React", "Tailwind", "Responsive Web Design"],
       link: "https://example-weather.com",
       github: "https://github.com/yourname/weather",
       summary:
