@@ -44,7 +44,7 @@ export default function ResumeDownload() {
 
         {/* 다운로드 버튼 */}
         <a
-          href="/resume.pdf"
+          href="/[프론트엔드 직무]_민수빈_이력서.pdf"
           download="[프론트엔드 직무] 민수빈 이력서.pdf"
           onMouseEnter={() => setShowTooltip(true)}
           onMouseLeave={() => setShowTooltip(false)}
