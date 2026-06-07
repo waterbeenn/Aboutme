@@ -1,0 +1,108 @@
+/* Portfolio styles */
+@keyframes pulse-custom {
+  0%, 100% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 0.9;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-pulse {
+  animation: pulse-custom 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Hero Section - Responsive Layout */
+.hero-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+}
+
+/* 반응형 브레이크 포인트: 990px 이하 */
+@media (max-width: 990px) {
+  .hero-container {
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+}
+
+/* 반응형 폰트 크기 */
+h2.hero-tagline {
+  font-size: 2.25rem; /* 36px - desktop */
+  line-height: 2.5rem;
+}
+
+p.hero-intro {
+  font-size: 1.125rem; /* 18px - desktop */
+  line-height: 1.75rem;
+}
+
+/* 태블릿 크기 (768px 이상 990px 이하) */
+@media (max-width: 990px) and (min-width: 768px) {
+  h2.hero-tagline {
+    font-size: 1.875rem; /* 30px */
+    line-height: 2.25rem;
+  }
+
+  p.hero-intro {
+    font-size: 1rem; /* 16px */
+    line-height: 1.5rem;
+  }
+}
+
+/* 모바일 크기 (768px 이하) */
+@media (max-width: 768px) {
+  h2.hero-tagline {
+    font-size: 1.5rem; /* 24px */
+    line-height: 2rem;
+  }
+
+  p.hero-intro {
+    font-size: 0.95rem; /* 15px */
+    line-height: 1.5rem;
+  }
+}
+
+/* 초소형 모바일 (550px 이하) */
+@media (max-width: 550px) {
+  h2.hero-tagline {
+    font-size: 1.25rem; /* 20px */
+    line-height: 1.75rem;
+  }
+
+  p.hero-intro {
+    font-size: 0.9rem; /* 14px */
+    line-height: 1.4rem;
+  }
+}
+
+/* Header Navigation - Responsive */
+.nav-desktop {
+  display: flex;
+  gap: 32px;
+}
+
+.hamburger-button {
+  display: none;
+}
+
+@media (max-width: 550px) {
+  .nav-desktop {
+    display: none !important;
+  }
+
+  .hamburger-button {
+    display: block !important;
+  }
+}

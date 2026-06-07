@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              poppins: ['Poppins', 'sans-serif'],
+              nunito: ['Nunito', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      @keyframes pulse-custom {
+        0%, 100% { opacity: 0.6; }
+        50% { opacity: 0.9; }
+      }
+      .animate-pulse {
+        animation: pulse-custom 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+      }
+    </style>
+    <script type="module" crossorigin src="/assets/index-BUbB2iZ0.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-LkasPWtb.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
