@@ -44,8 +44,8 @@ export default function ResumeDownload() {
 
         {/* 다운로드 버튼 */}
         <a
-          href="/minsubin_resume.pdf"
-          download="민수빈_프론트엔드 직무_이력서.pdf"
+          href="/resume.pdf"
+          download="[프론트엔드 직무] 민수빈 이력서.pdf"
           onMouseEnter={() => setShowTooltip(true)}
           onMouseLeave={() => setShowTooltip(false)}
           className="w-16 h-16 bg-gradient-to-r from-purple-600 to-blue-600 rounded-full flex items-center justify-center text-white shadow-lg hover:shadow-purple-500/40 hover:scale-110 transition-all duration-300"
