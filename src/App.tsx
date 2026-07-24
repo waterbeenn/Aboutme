@@ -1,14 +1,14 @@
 import "./App.css";
-import Header from "./components/Header";
-import Hero from "./components/Hero";
-import AboutMe from "./components/AboutMe";
-import SkillsList from "./components/SkillsList";
-import ProjectsList from "./components/ProjectsList";
-import CareerList from "./components/CareerList";
-import Footer from "./components/Footer";
-import ResumeDownload from './components/ResumeDownload';
-import BackgroundAnimation from "./components/BackgroundAnimation";
-import EducationList from "./components/EducationList";
+import Header from "./components/layout/Header";
+import Hero from "./components/layout/Hero";
+import AboutMe from "./components/about/AboutMe";
+import SkillsList from "./components/skills/SkillsList";
+import ProjectsList from "./components/projects/ProjectsList";
+import CareerList from "./components/career/CareerList";
+import Footer from "./components/layout/Footer";
+import ResumeDownload from './components/resume/ResumeDownload';
+import BackgroundAnimation from "./components/layout/BackgroundAnimation";
+import EducationList from "./components/education/EducationList";
 
 export default function App() {
   return (
