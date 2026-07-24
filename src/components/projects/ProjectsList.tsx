@@ -1,5 +1,5 @@
 import ProjectItem from "./ProjectItem";
-import { portfolioData } from "../lib/portfolio-data";
+import { portfolioData } from "../../lib/portfolio-data";
 
 interface Project {
   id: number;

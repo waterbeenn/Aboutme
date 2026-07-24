@@ -1,5 +1,5 @@
 import CareerItem from './CareerItem';
-import { portfolioData } from '../lib/portfolio-data';
+import { portfolioData } from '../../lib/portfolio-data';
 
 interface Task {
   title: string;

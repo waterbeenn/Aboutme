@@ -2,7 +2,7 @@ import { useState, useRef } from "react";
 import { createPortal } from "react-dom";
 import { User, Calendar, Mail, Globe } from "lucide-react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { portfolioData } from "../lib/portfolio-data";
+import { portfolioData } from "../../lib/portfolio-data";
 
 interface AboutCardProps {
   icon: React.ReactNode;

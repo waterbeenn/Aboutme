@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Hamburger, X } from "lucide-react";
-import { portfolioData } from "../lib/portfolio-data";
+import { portfolioData } from "../../lib/portfolio-data";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);

@@ -1,4 +1,4 @@
-import { portfolioData } from "../lib/portfolio-data";
+import { portfolioData } from "../../lib/portfolio-data";
 
 export default function Hero() {
   return (
