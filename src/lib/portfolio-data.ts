@@ -15,7 +15,13 @@ export const portfolioData = {
   },
   skills: {
     languages: ["JavaScript", "TypeScript", "Python", "Java"],
-    frontend: ["Next.js / React", "Sass", "Tailwind CSS", "Vite"],
+    frontend: [
+      "Next.js / React",
+      "React Native",
+      "Sass",
+      "Tailwind CSS",
+      "Vite",
+    ],
     backend: ["Node.js", "Express", "MySQL", "MongoDB"],
     tools: [
       "Git",
@@ -63,13 +69,40 @@ export const portfolioData = {
         "Responsive Web Design",
         "Vercel",
       ],
-      link: "https://example-weather.com",
-      github: "https://github.com/yourname/weather",
+      link: "https://aboutminsubin.vercel.app/",
+      github: "https://github.com/waterbeenn/Aboutme",
       summary:
         "• 프로젝트 및 이력 사항 관리를 위해 개발\n• React 프론트엔드와 Tailwind 기반의 SPA\n• PC·모바일·태블릿 최적화 반응형 디자인",
       why: "그동안의 프로젝트 경험과 커리어 이력을 확인할 수 있도록 만든 아카이빙 사이트입니다.\nLinkedIn 등 외부 플랫폼에서 유입된 채용담당자가 별도의 연락없이 이력서(PDF)를 다운로드 할 수 있도록 구성했습니다. ",
       achievements:
         "이 프로젝트에서는 이 페이지를 방문할 주요 사용자(채용담당자)의 플로우를 중점을 두었습니다.\n'소개 페이지'의 목적에 맞게 깔끔한 레이아웃과 높은 가독성을 위해 화려한 인터랙션은 지양했습니다. \n처음에는 챗봇 도입을 고려했지만 바쁜 채용담당자의 시간을 고려했을 때 비효율적이라고 생각하여 별도로 연락할 필요없이 바로 이력서를 다운받을 수 있도록 기능을 변경했습니다.",
+    },
+    {
+      id: 3,
+      title: "VIVIZIP(신한 스퀘어브릿지 청년 해커톤)",
+      description:
+        "유학생·1인 가구를 위한 AI 서류 검토 기반 부동산 계약 지원 앱입니다.",
+      tags: [
+        "React Native",
+        "Expo",
+        "Typescript",
+        "Tailwind (NativeWind)",
+        "Zustand",
+      ],
+      link: "https://www.youtube.com/shorts/WxynvALhA4s",
+      github: "https://github.com/vivizip/vivizip_FrontEnd",
+      summary:
+        "• 등기부등본/건축물대장 등 부동산 서류를 촬영하면 AI가 위험요소를 분석해주는 서류 검토 기능 개발\n" +
+        "• 계약 전·중·후 3단계로 이어지는 세로 타임라인 체크리스트 UI 구현\n" +
+        "• 카카오 소셜 로그인, JWT 자동 재발급 API 연결\n" +
+        "• Zustand로 탭/스택 간 화면 상태 공유",
+      why:
+        "타지에서 첫 자취를 시작하는 유학생들이 등기부등본이나 계약서 같은 어려운 법률 서류를 스스로 해석하지 못해 전세 사기 등 위험에 노출되는 문제를 해결하기 위해 시작한 프로젝트입니다.\n" +
+        "단순 정보 제공을 넘어, 서류를 촬영하는 것만으로 위험 요소를 짚어주고 계약 전/중/후 전 과정을 체크리스트로 안내하는 것을 목표로 했습니다.",
+      achievements:
+        "계약 전·중·후 공통 서류 화면을 컴포넌트화하여 UI 재사용성을 높이고, 다양한 서류의 데이터 구조를 지원하도록 구현했습니다.\n" +
+        "여러 탭·스택 네비게이션에서 공유되는 데이터를 Zustand 스토어 분리를 통해 효율적으로 관리했습니다.\n" +
+        "401 응답이 동시에 발생할 때 토큰 재발급 API가 중복 호출되는 문제를 Promise 공유 방식으로 해결하고, 재발급 실패 시 세션을 정리해 로그인 화면으로 전환되는 인증 플로우를 구현했습니다.\n",
     },
   ],
   career: [

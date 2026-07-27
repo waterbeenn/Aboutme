@@ -11,6 +11,7 @@ export default function Header() {
     { label: "Skills", href: "#skills" },
     { label: "Project", href: "#projects" },
     { label: "Career", href: "#career" },
+    { label: "Education", href: "#education" },
   ];
 
   const handleNavClick = (href: string) => {
